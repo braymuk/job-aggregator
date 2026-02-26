@@ -1,0 +1,2 @@
+[console_scripts]
+job-digest = job_aggregator.main:main

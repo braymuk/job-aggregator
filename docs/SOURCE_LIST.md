@@ -1,0 +1,9 @@
+linkedin.com
+sequoiacap.com
+apple.com
+accel.com
+a16z.com
+lvsp.com
+ycombinator.com
+wellfound.com
+google.com

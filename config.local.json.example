@@ -1,0 +1,21 @@
+{
+  "DATABASE_URL": "postgresql+psycopg://braymuk@localhost:5432/job_aggregator?connect_timeout=5",
+  "DIGEST_EMAIL_TO": "you@example.com",
+  "DIGEST_EMAIL_FROM": "jobs@example.com",
+  "DIGEST_SMTP_HOST": "localhost",
+  "DIGEST_SMTP_PORT": 1025,
+  "DIGEST_SMTP_USERNAME": "",
+  "DIGEST_SMTP_PASSWORD": "",
+  "DIGEST_USE_TLS": false,
+  "PREFERENCE_KEYWORDS": [
+    "python",
+    "backend",
+    "api"
+  ],
+  "PREFERENCE_LOCATION": "united states",
+  "PREFERENCE_REMOTE_ONLY": true,
+  "INGEST_ENABLE_REAL_SOURCES": false,
+  "INGEST_ENABLE_SKELETON_SOURCE": true,
+  "INGEST_REQUEST_TIMEOUT_SECONDS": 20,
+  "INGEST_ENABLE_PLACEHOLDER_SOURCES": false
+}

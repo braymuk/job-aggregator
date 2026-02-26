@@ -1,0 +1,24 @@
+[project]
+name = "job-aggregator"
+version = "0.1.0"
+description = "Simple job digest MVP"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "sqlalchemy>=2.0.0",
+  "psycopg[binary]>=3.1.0",
+  "certifi>=2024.0.0",
+]
+
+[project.scripts]
+job-digest = "job_aggregator.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
